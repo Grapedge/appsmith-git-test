@@ -3,6 +3,10 @@
     "widgetName": "Container1",
     "borderColor": "transparent",
     "isCanvas": true,
+    "dynamicPropertyPathList": [
+        {"key": "isVisible"},
+        {"key": "animateLoading"}
+    ],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
     "searchTags": [
@@ -15,12 +19,14 @@
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
-    "animateLoading": true,
+    "animateLoading": "true",
     "parentColumnSpace": 18.0625,
-    "leftColumn": 35,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 62,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "isVisible"}
     ],
     "children": [{
         "boxShadow": "none",
@@ -57,11 +63,11 @@
     "key": "mk4s89o34y",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 59,
+    "rightColumn": 64,
     "dynamicHeight": "FIXED",
     "widgetId": "98ygzg5oho",
     "containerStyle": "card",
-    "isVisible": true,
+    "isVisible": "{{(function name(params){\nlet a = Math.random()\nlet b\nif (a > 0.5) {\n\tb = [1]\n} {\n b = false\n}\n\treturn b\n\t\n      })()}}",
     "version": 1,
     "parentId": "0",
     "renderMode": "CANVAS",

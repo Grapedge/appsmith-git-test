@@ -3,13 +3,39 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "top",
+      "navStyle": "stacked",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
+    }
+  },
   "color": "#FFDEDE",
   "icon": "joystick",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
